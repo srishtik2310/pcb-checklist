@@ -5,7 +5,7 @@
 * [x] CAD ERC 100% clean. If some errors are invalid due to toolchain quirks, each exception must be inspected and signed
 off as invalid.
 * [x] Verify pin numbers of all schematic symbols against datasheet or external interface specification document (if not yet board proven).
-* [ ] Schematic symbol matches chosen component package
+* [x] Schematic symbol matches chosen component package
 * [ ] Thermal pads are connected to correct power rail (may not always be ground)
 * [ ] Debug interfaces are not power gated in sleep mode
 
