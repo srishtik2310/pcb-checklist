@@ -6,7 +6,7 @@
 off as invalid.
 * [x] Verify pin numbers of all schematic symbols against datasheet or external interface specification document (if not yet board proven).
 * [x] Schematic symbol matches chosen component package
-* [ ] Thermal pads are connected to correct power rail (may not always be ground)
+* [x] Thermal pads are connected to correct power rail (may not always be ground)
 * [ ] Debug interfaces are not power gated in sleep mode
 
 ## Passive components
