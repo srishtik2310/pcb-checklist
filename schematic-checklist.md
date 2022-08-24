@@ -12,7 +12,7 @@ off as invalid.
 ## Passive components
 * [x] Power/voltage/tolerance ratings specified as required
 * [x] Ceramic capacitors appropriately de-rated for C/V curve
-* [ ] Polarized components specified in schematic if using electrolytic caps etc
+* [x] Polarized components specified in schematic if using electrolytic caps etc
 
 ## Power supply
 
