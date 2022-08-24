@@ -10,8 +10,8 @@ off as invalid.
 * [x] Debug interfaces are not power gated in sleep mode
 
 ## Passive components
-* [ ] Power/voltage/tolerance ratings specified as required
-* [ ] Ceramic capacitors appropriately de-rated for C/V curve
+* [x] Power/voltage/tolerance ratings specified as required
+* [x] Ceramic capacitors appropriately de-rated for C/V curve
 * [ ] Polarized components specified in schematic if using electrolytic caps etc
 
 ## Power supply
