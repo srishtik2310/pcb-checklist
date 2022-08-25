@@ -19,7 +19,7 @@ off as invalid.
 ### System power input
 
 * [x] Fusing and/or reverse voltage protection at system power inlet
-* [ ] Check total input capacitance and add inrush limiter if needed
+* [x] Check total input capacitance and add inrush limiter if needed
 
 ### Regulators
 
