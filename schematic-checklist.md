@@ -23,7 +23,7 @@ off as invalid.
 
 ### Regulators
 
-* [ ] Under/overvoltage protection configured correctly if used
+* [x] Under/overvoltage protection configured correctly if used
 * [ ] Verify estimated power usage per rail against regulator rating
 * [ ] Current-sense resistors on power rails after regulator output caps, not in switching loop
 * [ ] Remote sense used on low voltage or high current rails
