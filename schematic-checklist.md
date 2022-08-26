@@ -64,12 +64,12 @@ same gain across the whole range.
 
 ### Clocks
 
-* [ ] All oscillators meet required jitter / frequency tolerance. Be extra cautious with MEMS oscillators as these tend to have higher jitter.
-* [ ] Correct load caps provided for discrete crystals
-* [ ] Crystals only used if IC has an integrated crystal driver
-* [ ] Banking / clock capable input rules met for clocks going to FPGAs
-    * [ ] Xilinx FPGAs: single ended clocks use _P half of differential pairs
-    * [ ] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
+* [x] All oscillators meet required jitter / frequency tolerance. Be extra cautious with MEMS oscillators as these tend to have higher jitter.
+* [x] Correct load caps provided for discrete crystals
+* [x] Crystals only used if IC has an integrated crystal driver
+* [x] Banking / clock capable input rules met for clocks going to FPGAs
+    * [x] Xilinx FPGAs: single ended clocks use _P half of differential pairs
+    * [x] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
 
 ### Strap/init pins
 * [ ] Pullup/pulldowns on all signals that need defined state at boot
