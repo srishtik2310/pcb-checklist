@@ -51,7 +51,7 @@ off as invalid.
 * [x] AC coupling caps on gigabit transceivers
 * [x] TX/RX paired correctly for UART, SPI, MGT, etc
 * [x] Differential pair polarity / pairing correct
-* [ ] Active high/low enable signal polarity correct
+* [x] Active high/low enable signal polarity correct
 * [x] I/O banking rules met on FPGAs etc
 * [ ] When using auto-sensing level shifters, ensure the intended receiver doesn't have a pullup/down
 
@@ -60,7 +60,7 @@ off as invalid.
 * [ ] RC time constant for attenuators sane given ADC sampling frequency
 * [ ] Verify frequency response of RF components across entire operating range. Don't assume a "1-100 MHz" amplifier has the
 same gain across the whole range.
-* [ ] Verify polarity of op-amp feedback
+* [x] Verify polarity of op-amp feedback
 
 ### Clocks
 
@@ -74,14 +74,14 @@ same gain across the whole range.
 ### Strap/init pins
 * [ ] Pullup/pulldowns on all signals that need defined state at boot
 * [ ] Strap pins connected to correct rail for desired state
-* [ ] JTAG/ICSP connector provided for all programmable devices
-* [ ] Config/boot flash provided for all FPGAs or MPUs without internal flash
+* [x] JTAG/ICSP connector provided for all programmable devices
+* [x] Config/boot flash provided for all FPGAs or MPUs without internal flash
 * [ ] Reference resistors correct value and reference rail
 
 ### External interface protection
 
-* [ ] Power outputs (USB etc) current limited
-* [ ] ESD protection on data lines going off board
+* [x] Power outputs (USB etc) current limited
+* [x] ESD protection on data lines going off board
 
 ### Debugging / reworkability
 
@@ -93,7 +93,7 @@ same gain across the whole range.
 
 ## Thermal
 
-* [ ] Power estimates for all large / high power ICs
-* [ ] Thermal calculations for all large / high power ICs
-* [ ] Specify heatsinks as needed
+* [x] Power estimates for all large / high power ICs
+* [x] Thermal calculations for all large / high power ICs
+* [x] Specify heatsinks as needed
 
