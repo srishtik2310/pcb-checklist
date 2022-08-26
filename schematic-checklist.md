@@ -57,7 +57,7 @@ off as invalid.
 
 ### Analog
 
-* [ ] RC time constant for attenuators sane given ADC sampling frequency
+* [x] RC time constant for attenuators sane given ADC sampling frequency
 * [x] Verify frequency response of RF components across entire operating range. Don't assume a "1-100 MHz" amplifier has the
 same gain across the whole range.
 * [x] Verify polarity of op-amp feedback
@@ -76,7 +76,7 @@ same gain across the whole range.
 * [ ] Strap pins connected to correct rail for desired state
 * [x] JTAG/ICSP connector provided for all programmable devices
 * [x] Config/boot flash provided for all FPGAs or MPUs without internal flash
-* [ ] Reference resistors correct value and reference rail
+* [x] Reference resistors correct value and reference rail
 
 ### External interface protection
 
@@ -86,7 +86,7 @@ same gain across the whole range.
 ### Debugging / reworkability
 
 * [ ] Use 0-ohm resistors vs direct hard-wiring for strap pins when possible
-* [ ] Provide multiple ground clips/points for scope probes
+* [x] Provide multiple ground clips/points for scope probes
 * [x] Dedicated ground in close proximity to analog test points
 * [x] Test points on all power rails
 * [x] Test points on interesting signals which may need probing for bringup/debug
