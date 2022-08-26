@@ -2,8 +2,8 @@
 
 ## General
 
-* [ ] [Schematic review](schematic-checklist.md) complete and signed off, including pin swaps done during layout
-* [ ] Layout DRC 100% clean
+* [x] [Schematic review](schematic-checklist.md) complete and signed off, including pin swaps done during layout
+* [x] Layout DRC 100% clean
 
 ## Decoupling
 
