@@ -58,7 +58,7 @@ off as invalid.
 ### Analog
 
 * [ ] RC time constant for attenuators sane given ADC sampling frequency
-* [ ] Verify frequency response of RF components across entire operating range. Don't assume a "1-100 MHz" amplifier has the
+* [x] Verify frequency response of RF components across entire operating range. Don't assume a "1-100 MHz" amplifier has the
 same gain across the whole range.
 * [x] Verify polarity of op-amp feedback
 
