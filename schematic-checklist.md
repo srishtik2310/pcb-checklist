@@ -53,7 +53,7 @@ off as invalid.
 * [x] Differential pair polarity / pairing correct
 * [x] Active high/low enable signal polarity correct
 * [x] I/O banking rules met on FPGAs etc
-* [ ] When using auto-sensing level shifters, ensure the intended receiver doesn't have a pullup/down
+* [x] When using auto-sensing level shifters, ensure the intended receiver doesn't have a pullup/down
 
 ### Analog
 
