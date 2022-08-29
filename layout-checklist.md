@@ -16,13 +16,13 @@
 * [x] Minimize use of vias/traces that push fab limits
 * [x] Controlled impedance specified in fab notes if applicable
 * [ ] Confirm impedance calculations include soldermask, or mask removed from RF traces
-* [ ] Stackup verified with manufacturer and specified in fab notes
-* [ ] Board finish specified in fab notes
+* [x] Stackup verified with manufacturer and specified in fab notes
+* [x] Board finish specified in fab notes
 * [ ] If panelizing, add panel location indicators for identifying location-specific reflow issues
-* [ ] (recommended) Layer number markers specified to ensure correct assembly
-* [ ] Fiducials present (on both sides of board) if targeting automated assembly
-* [ ] Fiducial pattern asymmetric to detect rotated or flipped boards
-* [ ] Soldermask/copper clearance on fiducials respected
+* [x] (recommended) Layer number markers specified to ensure correct assembly
+* [x] Fiducials present (on both sides of board) if targeting automated assembly
+* [x] Fiducial pattern asymmetric to detect rotated or flipped boards
+* [x] Soldermask/copper clearance on fiducials respected
 * [ ] Panelization specified if required
 
 ## Footprints
