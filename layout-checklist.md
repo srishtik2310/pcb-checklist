@@ -36,9 +36,9 @@
 * [ ] Soldermask apertures on all SMT lands and PTH pads
 
 ## Differential pairs
-* [ ] Routed differentially
+* [x] Routed differentially
 * [ ] Skew matched
-* [ ] Correct clearance to non-coupled nets
+* [x] Correct clearance to non-coupled nets
 
 ## High-speed signals
 
