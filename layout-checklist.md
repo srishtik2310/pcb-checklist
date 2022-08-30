@@ -53,30 +53,30 @@
 * [x] Sufficient width for planes/traces for required current
 
 ## Sensitive analog
-* [ ] Guard ring / EMI cages provided if needed
-* [ ] Physically separated from high current SMPS or other noise sources
-* [ ] Consider microphone effect on MLCCs if near strong sound sources
+* [x] Guard ring / EMI cages provided if needed
+* [x] Physically separated from high current SMPS or other noise sources
+* [x] Consider microphone effect on MLCCs if near strong sound sources
 
 ## Mechanical
-* [ ] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
-* [ ] LEDs, buttons, and other UI elements on outward-facing side of board
-* [ ] Keep-outs around PCB perimeter, card guides, panelization mouse-bites, etc respected
+* [x] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
+* [x] LEDs, buttons, and other UI elements on outward-facing side of board
+* [x] Keep-outs around PCB perimeter, card guides, panelization mouse-bites, etc respected
 * [ ] Stress-sensitive components (MLCC) sufficiently clear from V-score or mouse bite locations, and oriented to reduce
 bending stress
-* [ ] Clearance around large ICs for heatsinks/fans if required
-* [ ] Clearance around pluggable connectors for mating cable/connector
-* [ ] Clearance around mounting holes for screws
-* [ ] Plane keepouts and clearance provided for shielded connectors, magnetics, etc
-* [ ] Confirm PCB dimensions and mounting hole size/placement against enclosure or card rack design
-* [ ] Verify mounting hole connection/isolation
-* [ ] Components not physically overlapping/colliding
-* [ ] Clearance provided around solder-in test points for probe tips
+* [x] Clearance around large ICs for heatsinks/fans if required
+* [x] Clearance around pluggable connectors for mating cable/connector
+* [x] Clearance around mounting holes for screws
+* [x] Plane keepouts and clearance provided for shielded connectors, magnetics, etc
+* [x] Confirm PCB dimensions and mounting hole size/placement against enclosure or card rack design
+* [x] Verify mounting hole connection/isolation
+* [x] Components not physically overlapping/colliding
+* [x] Clearance provided around solder-in test points for probe tips
 
 ## Thermal
 
-* [ ] Thermal reliefs used for plane connections (unless via is used for heatsinking)
-* [ ] Solid connections used to planes if heatsinking
-* [ ] Ensure thermal balance on SMT chip components to minimize risk of tombstoning
+* [x] Thermal reliefs used for plane connections (unless via is used for heatsinking)
+* [x] Solid connections used to planes if heatsinking
+* [x] Ensure thermal balance on SMT chip components to minimize risk of tombstoning
 
 ## Solder paste
 
