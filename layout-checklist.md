@@ -61,7 +61,7 @@
 * [x] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
 * [x] LEDs, buttons, and other UI elements on outward-facing side of board
 * [x] Keep-outs around PCB perimeter, card guides, panelization mouse-bites, etc respected
-* [ ] Stress-sensitive components (MLCC) sufficiently clear from V-score or mouse bite locations, and oriented to reduce
+* [x] Stress-sensitive components (MLCC) sufficiently clear from V-score or mouse bite locations, and oriented to reduce
 bending stress
 * [x] Clearance around large ICs for heatsinks/fans if required
 * [x] Clearance around pluggable connectors for mating cable/connector
@@ -80,31 +80,31 @@ bending stress
 
 ## Solder paste
 
-* [ ] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
-* [ ] QFN paste prints segmented
-* [ ] Small pads 100% size, larger pads reduced to avoid excessive solder volume
-* [ ] No paste apertures on card edge connectors or test points
+* [x] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
+* [x] QFN paste prints segmented
+* [x] Small pads 100% size, larger pads reduced to avoid excessive solder volume
+* [x] No paste apertures on card edge connectors or test points
 
 ## Solder mask
 
-* [ ] Confirm SMD vs NSMD pad geometry
-* [ ] Adequate clearance around pads (typ. 50 um)
+* [x] Confirm SMD vs NSMD pad geometry
+* [x] Adequate clearance around pads (typ. 50 um)
 
 ## Silkscreen
 
-* [ ] Text size within fab limits
-* [ ] Text not overlapping drills or component pads
-* [ ] Text removed entirely in, or moved outside of, high component/via density areas
-* [ ] Traceability markings (rev, date, name, etc) provided
-* [ ] Silkscreen box provided for writing/sticking serial number
-* [ ] Text mirrored properly on bottom layer
-* [ ] Test points labeled if space permits
+* [x] Text size within fab limits
+* [x] Text not overlapping drills or component pads
+* [x] Text removed entirely in, or moved outside of, high component/via density areas
+* [x] Traceability markings (rev, date, name, etc) provided
+* [x] Silkscreen box provided for writing/sticking serial number
+* [x] Text mirrored properly on bottom layer
+* [x] Test points labeled if space permits
 
 ## Flex specific
-* [ ] Components oriented to reduce bending forces
-* [ ] Teardrops on all wire-to-pad connections
+* [x] Components oriented to reduce bending forces
+* [x] Teardrops on all wire-to-pad connections
 
 ## CAM production
-* [ ] KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
-* [ ] Export gerber/drill files at the same time to ensure consistency
-* [ ] Visually verify final CAM files to ensure no obvious misalignments
+* [x] KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
+* [x] Export gerber/drill files at the same time to ensure consistency
+* [x] Visually verify final CAM files to ensure no obvious misalignments
