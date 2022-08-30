@@ -42,15 +42,15 @@
 
 ## High-speed signals
 
-* [ ] Sufficient clearance to potential aggressors
-* [ ] Length matched if required
-* [ ] Minimize crossing reference plane splits/slots or changing layers, use caps/stitching vias if unavoidable
-* [ ] Confirm fab can do copper to edge of PCB for edge launch connectors
-* [ ] Double-check pad width on connectors and add plane cutouts if needed to minimize impedance discontinuities
+* [x] Sufficient clearance to potential aggressors
+* [x] Length matched if required
+* [x] Minimize crossing reference plane splits/slots or changing layers, use caps/stitching vias if unavoidable
+* [x] Confirm fab can do copper to edge of PCB for edge launch connectors
+* [x] Double-check pad width on connectors and add plane cutouts if needed to minimize impedance discontinuities
 
 ## Power
-* [ ] Minimal slots in planes from via antipads
-* [ ] Sufficient width for planes/traces for required current
+* [x] Minimal slots in planes from via antipads
+* [x] Sufficient width for planes/traces for required current
 
 ## Sensitive analog
 * [ ] Guard ring / EMI cages provided if needed
