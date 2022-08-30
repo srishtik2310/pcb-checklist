@@ -18,26 +18,26 @@
 * [ ] Confirm impedance calculations include soldermask, or mask removed from RF traces
 * [x] Stackup verified with manufacturer and specified in fab notes
 * [x] Board finish specified in fab notes
-* [ ] If panelizing, add panel location indicators for identifying location-specific reflow issues
+* [x] If panelizing, add panel location indicators for identifying location-specific reflow issues
 * [x] (recommended) Layer number markers specified to ensure correct assembly
 * [x] Fiducials present (on both sides of board) if targeting automated assembly
 * [x] Fiducial pattern asymmetric to detect rotated or flipped boards
 * [x] Soldermask/copper clearance on fiducials respected
-* [ ] Panelization specified if required
+* [x] Panelization specified if required
 
 ## Footprints
 
-* [ ] Confirm components are available in the selected package
-* [ ] Confirm components (especially connectors and power regulators) are capable of desired current in the selected package
-* [ ] Verify schematic symbol matches the selected package
-* [ ] Confirm pinout diagram is from top vs bottom of package
+* [x] Confirm components are available in the selected package
+* [x] Confirm components (especially connectors and power regulators) are capable of desired current in the selected package
+* [x] Verify schematic symbol matches the selected package
+* [x] Confirm pinout diagram is from top vs bottom of package
 * [ ] (recommended) PCB printed 1:1 on paper and checked against physical parts
-* [ ] 3D models obtained (if available) and checked against footprints
+* [x] 3D models obtained (if available) and checked against footprints
 * [ ] Soldermask apertures on all SMT lands and PTH pads
 
 ## Differential pairs
 * [x] Routed differentially
-* [ ] Skew matched
+* [x] Skew matched
 * [x] Correct clearance to non-coupled nets
 
 ## High-speed signals
